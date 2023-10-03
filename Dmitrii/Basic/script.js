@@ -26,6 +26,11 @@ function displayName(e) {
     foolName.style.color = 'red';
   }
   changeColor()
+
+
+  // firstName.value = '';
+  // lastName.value = '';
+  // userAge.value = '';
 }
 
 submitBtn.addEventListener('click', displayName)
