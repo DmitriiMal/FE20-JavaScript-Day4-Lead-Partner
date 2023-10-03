@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+img {
+  max-width: 100%;
+  cursor: pointer;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
